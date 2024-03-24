@@ -22,3 +22,35 @@ body{
     width:100%;
 }
 
+
+
+@media only screen and (max-width:600px)and (min-width:450px){
+    .container{
+        display: flex;
+        /* background-color: yellow; */
+        height:250px;
+        width:450px;
+        overflow: hidden;
+        
+    }
+}
+@media only screen and (max-width:450px) and (min-width:350px){
+    .container{
+        display: flex;
+        /* background-color: yellow; */
+        height:250px;
+        width:350px;
+        overflow: hidden;
+        
+    }
+}
+@media only screen and (max-width:350px){
+    .container{
+        display: flex;
+        /* background-color: yellow; */
+        height:150px;
+        width:250px;
+        overflow: hidden;
+        
+    }
+}
